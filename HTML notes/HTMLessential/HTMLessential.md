@@ -23,3 +23,5 @@
 ....
 <h6>heaind 6</h6>
 ```
+
+<p> - this tag is used to generate the paragraph.
