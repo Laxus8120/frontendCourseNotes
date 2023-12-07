@@ -2,7 +2,7 @@
 * we know the HTML stands for `Hyper text Markup language` but waht is the meaning of all these words ?
 
 * the html is used to write document text only now here the 
-    * `Markup`  - stands because the html uses the markup  tags that help format the overall view of a page and the data it contains.
+    * `Markup`  - stands because the html uses the markup tags that help format the overall view of a page and the data it contains.
     * `Hyper text` - the html document consist of text consist of `hyper links` that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web.
 
 >NOTE- HTML is not a programing language because it not consist of decision making functionalites. 
