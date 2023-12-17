@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(192, 235, 231); 
+    /* Universal Selector */
+}
+
+.Headings{
+    background-color: blueviolet;
+    /* Class Selectors */
+}
+
+#information{
+    background-color: brown;
+    /* Id selectors */
+}
