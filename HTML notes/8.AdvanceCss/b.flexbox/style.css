@@ -4,3 +4,13 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+
+#parent{
+    border: solid red 10px;
+    display: flex;
+}
+
+#parent div{
+    border: solid blue 2px;
+    padding: 20px;
+}
