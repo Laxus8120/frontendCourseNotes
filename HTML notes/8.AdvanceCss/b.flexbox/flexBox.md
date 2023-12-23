@@ -11,17 +11,45 @@
 
 * there is property `display` is css.
 ```css 
-
+display : flex;
 ```
 
+>justify-content
+
+it helps to mangae the space between all the element inside the container in a `main axis`;
+
+![Alt text](image-1.png)
+
+>align-content
+
+it is similar to justify content to manage space distribution between the item in the `cross-axis`.
+
+![Alt text](image.png)
+
+In flex- container in order to move item we have two axis -
+>main-axis 
+
+>cross-axis
+
+>flex direction
+
+flex-direction. This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+![Alt text](image-2.png)
+
+>align-item
+![Alt text](image-3.png)
+
+>align-self
+Another property you can apply to individual items is align-self. This property accepts the same values as align-items and its value for the specific item.
 
 
-flex-wrap?
-justify-content?
-flex-flow?
-main-axis?
-cross-axis?
-align-item?
-align-content?
-flex-grow?
-flex-basis?
+>flex-wrap?
+![Alt text](image-4.png)
+
+flex-item are forced on a single line or be wrapped on multiple line.
+
+>flex-flow?
+![Alt text](image-5.png)
+
+

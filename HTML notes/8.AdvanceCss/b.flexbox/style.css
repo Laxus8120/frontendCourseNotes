@@ -8,6 +8,10 @@ html{
 #parent{
     border: solid red 10px;
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:start;
+    flex-wrap: wrap;
 }
 
 #parent div{
