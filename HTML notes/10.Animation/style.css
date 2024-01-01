@@ -5,15 +5,25 @@ html{
 *,*::after,*::before{
     box-sizing: inherit;
 }
-
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 #transition{
-    border: solid rebeccapurple 10px;
-    width: 500px;
-    height: 500px;
-    background-color: rebeccapurple;
-
+    display: flex;
+    width: 50px;
+    height: 50px;
+    /* background-color: rebeccapurple; */
+    border: solid blue 5px;
+    border-top: solid white;
+    border-radius: 100px;
 }
 
 #transition:hover{
-    transition-delay: 5ms;
+    transform: rotate(180deg);
+    background-color: red;
+    border: solid red 5px;
+    transition: all 4s linear 1s ;
 }
+
