@@ -1,0 +1,85 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+.post{
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 12px;
+    width: 900px;
+    height:  max-content;
+    border: solid 1px #cfd9de;   
+    display: flex; 
+}
+
+.thumbnail{
+    height: max-content;
+    display: flex;
+}
+.thumbnail img{
+    width: 48px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+}
+#name{
+    margin: 0 4px 2px 0;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: max-content;
+}
+
+#metadata{
+    margin: 0 0 2px 0;
+    color: #71767b;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: max-content;
+}
+
+.handle{ 
+    margin: 0 0 0 12px;
+}
+
+#message{
+    width: 100%;
+}
+.icon{
+    display: flex;
+    margin: 12px 100px 0 0;
+    justify-content: space-between;
+}
+
+#comment{
+    display: flex;
+}
+#comment img{
+    width: 16px;
+}
+#retweet{
+    display: flex;
+}
+#retweet img{
+    width: 16px;
+}
+#like{
+    display: flex;
+}
+#like img{
+    width: 16px;
+}
+#share{
+    display: flex;
+}
+#share img{
+    width: 16px;
+}
