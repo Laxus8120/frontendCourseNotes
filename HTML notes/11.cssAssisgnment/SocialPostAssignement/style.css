@@ -6,6 +6,13 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    background-color: #1DA1F2;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
 .post{
     background-color: #fff;
     border-radius: 16px;
@@ -14,6 +21,8 @@ html{
     height:  max-content;
     border: solid 1px #cfd9de;   
     display: flex; 
+    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
 }
 
 .thumbnail{
@@ -82,4 +91,13 @@ html{
 }
 #share img{
     width: 16px;
+}
+
+.icon span{
+    font-size: 13px;
+    color: #536471;
+}
+
+.icon img{
+    margin-right: 12px;
 }
