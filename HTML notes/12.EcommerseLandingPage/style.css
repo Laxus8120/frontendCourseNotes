@@ -16,3 +16,21 @@
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
   }
+
+  @media(min-width: 570px){
+    .search-img{
+        padding-left: 30px;
+        background: url(icons8-search-96.svg) no-repeat left center;
+        background-size: 20px;
+    }
+  }
+
+.card{
+}
+
+h1{
+    font-weight:bold;
+    font-family: sans-serif;
+    color: rgb(87, 87, 87);
+
+}
